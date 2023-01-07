@@ -1,0 +1,23 @@
+name: dance_ar
+description: Demonstrates how to use the arkit_plugin plugin.
+publish_to: 'none'
+
+version: 1.0.0+0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  arkit_plugin: ^1.0.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.11.1
+
+
+
+flutter:
+  uses-material-design: true
